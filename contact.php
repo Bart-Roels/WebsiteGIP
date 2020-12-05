@@ -108,25 +108,20 @@
   <?php
 
   // Load Composer's autoloader
-  require 'assets/PHPMailer/src/PHPMailer.php';
+  
+  use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\Exception;
 
+  require ('vendor/PHPMailer/src/PHPMailer.php');
+  require ('vendor/PHPMailer/src/Exception.php');
   // Instantiation and passing `true` enables exceptions
   $mail = new PHPMailer(true);
 
   try {
-    //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
-    $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'send.one.com';                         // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'info@automotivechecker.be';            // SMTP username
-    $mail->Password   = 'Bart2003';                             // SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-
     //Recipients
-    $mail->setFrom('info@automotivechecker.be', 'Automotive Checker');
+    $mail->setFrom('info@vlaschaard.com', 'Automotive Checker', 0);
     $mail->addAddress('bart.roels@student.romerocollege.be', 'Bart');     // Add a recipient
+    $mail->addReplyTo('info@vlaschaard.com', 'Automotive Checker');
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
@@ -140,7 +135,8 @@
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
   }
   ?>
-
+  
+  
   <!-- Footer -->
   <footer class="footer bg-light">
     <div class="container">
