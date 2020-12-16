@@ -47,6 +47,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#Team">Ons team</a>
           </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Logboek.html">Logboek</a>
+          </li>
           <!--
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>
@@ -72,7 +76,7 @@
             we “Automative Checker” genoemd hebben.
             Deze naam verwijst dan ook onmiddellijk naar de reden van ons project : het automatiseren van het
             controlesysteem. Bart is de zoon van de zaakvoerster van Garage Mertens wat onze link meteen verklaard met
-            de firma
+            de firma.
           </p>
           <br>
         </div>
@@ -108,7 +112,7 @@
               <i class="icon-energy m-auto text-primary"></i>
             </div>
             <h3>Reden?</h3>
-            <p class="lead mb-0">Wat is de reden achter dit project? Waarom zijn we met dit project begeonne?</p>
+            <p class="lead mb-0">Wat is de reden achter dit project? Waarom zijn we met dit project begonnen?</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -137,13 +141,12 @@
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img"
-          style="background-image: url('img/Lamp.jpg');"> </div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Lamp.jpg');"> </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Reden?</h2>
           <p class="lead mb-0">
             Garage Mertens stelde zichzelf de vraag hoe ze de efficiëntie kunnen verhogen tijdens de
-            controle van nieuwe <br> </br>
+            controle van nieuwe stockwagens. <br> </br>
 
             De garage kampt met het probleem dat de controle op nieuwe stockwagens, op dit moment, niet efficiënt
             verloopt. Bij het binnenkomen van het voertuig, dient er nagekeken te worden of deze enige schade heeft
@@ -193,7 +196,7 @@
             automatiseren. Dit houdt verschillende elementen in. <br> </br>
 
             Dit doen we enerzijds door een database te voorzien die alle gegevens herneemt en waarbij er voor elke wagen
-            een zo groot mogelijk aantal gegevens hernomen worden. . Er zal snel en makkelijk gezocht kunnen worden
+            een zo groot mogelijk aantal gegevens hernomen worden. Er zal snel en makkelijk gezocht kunnen worden
             doorheen alle informatie en dit kan dan ook vanuit elk element, bijvoorbeeld door middel van het
             chassisnummer, via het type van auto, via de datum van levering….<br> </br>
 
@@ -216,15 +219,13 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/Bart.jpg"
-              alt="">
+            <img class="img-fluid rounded-circle mb-3" src="img/Bart.jpg" alt="">
             <h5>Bart Roels <br>Developer</h5>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/Koen.jpg"
-              alt="">
+            <img class="img-fluid rounded-circle mb-3" src="img/Koen.jpg" alt="">
             <h5>Koen Van Der Plas<br>Developer</h5>
           </div>
         </div>
@@ -269,7 +270,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="#Home">Home</a>
+              <a href="index.php#Home">Home</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -285,17 +286,12 @@
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100009685365290">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.instagram.com/bart__roels/?hl=en">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
@@ -304,9 +300,6 @@
       </div>
     </div>
   </footer>
-
- 
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
