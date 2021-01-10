@@ -25,7 +25,6 @@
     session_regenerate_id(); // regenerated the session, delete the old one. 
 }
 
-
 function checkIfLoggedIn() 
 {
     //echo $_SESSION['username'];
@@ -36,11 +35,4 @@ function checkIfLoggedIn()
         exit();
     }  
 }
-
-
-
-
-
-
-
 ?>
