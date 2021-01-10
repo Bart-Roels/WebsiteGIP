@@ -42,17 +42,17 @@
                     <a class="nav-link" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Informatie">Informatie</a>
+                    <a class="nav-link" href="#Informatie">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Team">Ons team</a>
+                    <a class="nav-link" href="#Team">Our team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Logboek.html">Logboek</a>
+                    <a class="nav-link" href="LogboekEN.html">Logbook</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Talen
+                        Languages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="index.php">NL</a>
@@ -78,14 +78,12 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Welkom op onze website!</h1>
+          <h1 class="mb-5">Welcome on our website!</h1>
           <p>
-            Wij zijn studenten in het laatste jaar 6ITN van het Oscar Romero College.
-            Voor onze GIP hebben we gekozen om een programma te maken voor Garage Mertens, gelegen te Dendermonde, die
-            we “Automative Checker” genoemd hebben.
-            Deze naam verwijst dan ook onmiddellijk naar de reden van ons project : het automatiseren van het
-            controlesysteem. Bart is de zoon van de zaakvoerster van Garage Mertens, wat onze link meteen verklaard met
-            de firma.
+            We are final year 6ITN students at the Oscar Romero College. 
+            For our GIP we have chosen to make a program for Garage Mertens, located in Dendermonde, which we have called “Automative Checker”.  
+            This name immediately refers to the reason for our project: automating the control system.
+            Bart is the son of the business manager of Garage Mertens which also explains our link with the company.
           </p>
           <br>
         </div>
@@ -120,8 +118,8 @@
             <div class="features-icons-icon d-flex">
               <i class="icon-energy m-auto text-primary"></i>
             </div>
-            <h3>Reden?</h3>
-            <p class="lead mb-0">Wat is de reden achter dit project? Waarom zijn we met dit project begonnen?</p>
+            <h3>Reason?</h3>
+            <p class="lead mb-0">What is the reason behind this project? Why did we start this project?</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -129,8 +127,8 @@
             <div class="features-icons-icon d-flex">
               <i class="icon-target m-auto text-primary"></i>
             </div>
-            <h3>Doel?</h3>
-            <p class="lead mb-0">Wat zijn onze doelen achter dit project? Zowel persoonlijk als extern?</p>
+            <h3>Goal?</h3>
+            <p class="lead mb-0">What are our goals behind this project, both personally and externally?</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -138,8 +136,8 @@
             <div class="features-icons-icon d-flex">
               <i class="icon-check m-auto text-primary"></i>
             </div>
-            <h3>Resultaat?</h3>
-            <p class="lead mb-0">Hoe zien wij het eindresultaat?</p>
+            <h3>Result?</h3>
+            <p class="lead mb-0">How do we see the end result?</p>
           </div>
         </div>
       </div>
@@ -152,46 +150,46 @@
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Lamp.jpg');"> </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Reden?</h2>
+          <h2>Reason?</h2>
           <p class="lead mb-0">
-            Garage Mertens stelde zichzelf de vraag hoe ze de efficiëntie kunnen verhogen tijdens de
-            controle van nieuwe stockwagens. <br> </br>
+            Garage Mertens asked itself how they can increase efficiency during 
+            the inspection of new cars. <br> </br>
 
-            De garage kampt met het probleem dat de controle op nieuwe stockwagens, op dit moment, niet efficiënt
-            verloopt. Bij het binnenkomen van het voertuig dient er nagekeken te worden of deze enige schade heeft
-            opgelopen bij het transporteren en/of afleveren.<br> </br>
+            The garage is faced with the problem that the control of new stock cars, at the moment, is not very efficient. 
+            When a new vehicle arrives, it must be checked whether it has 
+            suffered any damage during transport and/or delivery. <br> </br>
 
-            Na de ontvangst en eerste check van het voertuig, zijn er nog verschillende periodieke controles die de
-            medewerkers moeten uitvoeren. De eerstvolgende deadline komt er na 6 weken. Hierna zijn er nog meer
-            deadlines die moeten gerespecteerd worden. De controle wordt opnieuw uitgevoerd na 3 maanden, na 6 maanden
-            en ten slotte na 12 maanden.<br> </br>
+            After the receipt and first check of the vehicle, there are several periodic checks that the employees must perform. The next deadline will come after 6 weeks. 
+            After this there are more deadlines that must be respected. 
+            The check is carried out again after 3 months, after 6 months and finally after 12 months.<br> </br>
 
-            Deze procedure wordt nog steeds op papier gedaan. Het gaat hier over één specifiek formulier die de hele weg
-            van elk voertuig, van het in ontvangst nemen tot de eerste controle op schade tot aan de verkoop, mee
-            volgt.<br> </br>
+            This procedure is still done on paper. There is one specific form that follows 
+            the entire route of each vehicle, 
+            from receipt to initial inspection for damage to the sale.<br> </br>
 
-            Wij zijn zeer gemotiveerd om onze opleiding, zowel de theorie als de vele oefeningen, om te zetten in dit
-            project en al zeker omdat ons programma wel degelijk in het dagdagelijkse leven gebruikt zal worden.
+            We are highly motivated to put our training, both theoretic as the many exercises we had, 
+            into practice with this project and certainly because our program will be used in actually daily life.
           </p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/Handen.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Doel?</h2>
+          <h2>Goal?</h2>
           <p class="lead mb-0">
-            Ons doel, naar de firma toe, is om een manueel proces te automatiseren en digitaliseren.</br>
-            Door dit te doen willen we verschillende doelen bereiken :</br>
-            - Efficiëntie verhogen</br>
-            - Meer interne controles</br>
-            - Automatische herinneringen</br>
-            - Meer ecologisch werken
+                Our goal, towards the company, is to automate and digitize a manual process. </br>
+                By doing this we want to achieve several goals: </br>
+                - Increase efficiency</br>
+                - More internal controls </br>
+                - Automatic reminders </br>
+                - Work more ecologically
+
             <br> </br>
-            De doelen die wij als leerling met dit project willen bereiken is vooral om onze theoretische kennis om te
-            zetten in de praktijk. Onze ervaring in de praktijk is nog beperkt, maar tijdens onze studie hebben we veel
-            praktische vakken gekregen. Daarom proberen wij met dit groter project onze kennis om te zetten in de
-            praktijk. Ook één van onze doelen is het leren communiceren met diverse eindklanten. Zowel eindklanten met
-            technische kennis maar ook eindklanten zonder technische kennis.
+            The goals that we as students have to achieve with this project are mainly to put our theoretical knowledge into practice. 
+            Our practical experience is still limited, but during our studies we received many practical courses. 
+            That is why we try to put our knowledge into practice with this larger project. 
+            One of our goals is also learning to communicate with various end users. 
+            End users with technical knowledge but also end users without technical knowledge.
           </p>
         </div>
       </div>
@@ -199,20 +197,19 @@
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Code.jpg');">
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Eindresultaat</h2>
+          <h2>Result</h2>
           <p class="lead mb-0">
-            De uiteindelijke bedoeling van ons project is om de hele procedure van de controles te digitaliseren en te
-            automatiseren. Dit houdt verschillende elementen in. <br> </br>
+            The ultimate aim of our project is to digitize and automate the entire procedure of the inspections. 
+            This involves several elements.  <br> </br>
 
-            Dit doen we door een database te voorzien die alle gegevens herneemt en waarbij er voor elke wagen
-            een zo groot mogelijk aantal gegevens hernomen worden. Er zal snel en makkelijk gezocht kunnen worden
-            doorheen alle informatie en dit kan dan ook vanuit elk element, bijvoorbeeld door middel van het
-            chassisnummer, via het type van auto, via de datum van levering….<br> </br>
+            We do this by providing a database that records all data and 
+            in which the largest possible amount of data is retrieved for each car. 
+            It will be quick and easy to search through all the information and this can also be done from any part of information, 
+            for example by means of the chassis number, via the type of car, via the date of delivery….<br> </br>
 
-            Wij willen als eindresultaat van ons project, een volledig werkende website klaar hebben, die door de
-            werknemers van de garage makkelijk en vlot kan gebruikt worden. Deze website zal in verbinding staan met de
-            database waar al de huidige gegevens reeds in verwerkt zitten en waarbij de nieuwe gegevens makkelijk
-            toegevoegd kunnen worden door de gebruikers via invulschermen.<br> </br>
+            As the end result of our project, we want to have a fully functional website, which can be used easily and smoothly by the employees of the garage. 
+            This website will communicate with the database that already 
+            contains all the current data and where the new data can be easily added by the user via input screens.<br> </br>
 
         </div>
       </div>
@@ -241,7 +238,7 @@
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/Mama.jpg" alt="">
-            <h5>Caroline Van De Voorde <br>Contactpersoon</h5>
+            <h5>Caroline Van De Voorde <br>Contact</h5>
           </div>
         </div>
       </div>
