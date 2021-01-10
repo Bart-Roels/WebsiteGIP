@@ -20,7 +20,7 @@ h6 {
 header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url(../img/bg-masthead.jpg) no-repeat center center;
+    background: url(../img/Audi.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem
@@ -33,7 +33,7 @@ header.masthead .overlay {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: .3
+    opacity: 0.7
 }
 
 header.masthead h1 {
@@ -104,7 +104,7 @@ header.masthead h1 {
 .call-to-action {
     position: relative;
     background-color: #343a40;
-    background: url(../img/bg-masthead.jpg) no-repeat center center;
+    background: url(../img/VWLogo.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem
@@ -129,4 +129,14 @@ footer.footer {
 {
     height: 5rem;
 }
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.signinbtn {
+    position: relative;
+    left: 8px !important;
+}
+
 
