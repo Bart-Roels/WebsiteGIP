@@ -36,7 +36,7 @@
             {
                 $_SESSION['username'] = $username;
                 // Login gelukt
-                header("Location: ../dash.php");
+                header("Location: ../index.php");
                 exit();
             }
             else
