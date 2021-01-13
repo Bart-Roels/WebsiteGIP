@@ -58,7 +58,7 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="index.php"><img src= "assets/img/belgium.png">NL</a>
                     <a class="dropdown-item" href="indexFR.php"><img src= "assets/img/france.png">FR</a>
-                    <a class="dropdown-item" href="indexFR.php"><img src= "assets/img/united-kingdom.png">ENG</a>
+                    <a class="dropdown-item" href="indexEN.php"><img src= "assets/img/united-kingdom.png">ENG</a>
                 </div>
               </li>
           <form action="inloggen.php">
@@ -99,8 +99,6 @@
     </div>
   </header>
   <header>
-
-
 
   </header>
   <!-- Icons Grid -->
@@ -249,16 +247,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4">Geinteresseerd? Meld je dan snel aan!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+        <form method="POST" action="register.php">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Voer hier u email in..."...">
+                <input name="email" type="email" class="form-control form-control-lg" placeholder="Voer hier u email in...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Aanmelden</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Aanmelden</button>
               </div>
             </div>
           </form>
