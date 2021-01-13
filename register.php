@@ -1,7 +1,8 @@
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
-include_once 'includes/process_register.php'
+include_once 'includes/process_register.php';
+$mysqli = get_connection();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,8 +30,8 @@ include_once 'includes/process_register.php'
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">Registreer</h4>
-							<form method="post" class="my-login-validation" action="register.php" >							
-								<?php include('error.php'); ?>
+							<form method="post" class="my-login-validation" action="register.php" >		
+							    <?php include('error.php'); ?>
 								<div class="form-group">
 									<label>Username</label>
 									<input class="form-control"type="text" name="username" value="<?php echo $username; ?>">

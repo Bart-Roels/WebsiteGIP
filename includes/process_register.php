@@ -6,17 +6,15 @@
     // variablen
     $mysqli = get_connection();
     $errors = array();
-    $admin = 1;
-    $geactiveerd = 1;
     
     
     if (isset($_POST['reg_user'])) 
     {
         // Informatie van post halen
-        $username = $_POST['username'];
-        $email = $_POST['email'];
-        $password_1 = $_POST['password_1'];
-        $password_2 = $_POST['password_2'];
+        	$username = $_POST['username'];
+			$email = $_POST['email'];
+			$password_1 = $_POST['password_1'];
+			$password_2 = $_POST['password_2'];
         
         // Cheken op lege input
         if (empty($username)) { array_push($errors, "Gebruikersnaam is verplicht!"); }
@@ -45,13 +43,12 @@
         
         // Rregistreer gebruiker
         if (count($errors) == 0) {
+            
             $password = md5($password_1);//encrypt the password before saving in the database
-            $admin = 0;
-            $geactiveerd = 0;
-        	$query = "INSERT INTO TBLgebruikers (Username, Email, Wachtwoord, admin, geactiveerd) VALUES('$username', '$email', '$password', '$admin', '$geactiveerd')";
-        	mysqli_query($mysqli, $query);
-        	$_SESSION['username'] = $username;
-        	header('location: ../index.php');
+			// $mysqli = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES ('$username','$email','$password')";
+			// $mysqli  = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES (1,2,3)";
+			$query  = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES ('$username','$email','$password')";
+            mysqli_query($mysqli, $query);	        
         }
     }
 ?>
