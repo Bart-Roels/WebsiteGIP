@@ -39,13 +39,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="ml-auto navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="indexFR.html#Home">Home</a>
+                    <a class="nav-link" href="indexFR.php#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="indexFR.html#Informatie">Information</a>
+                    <a class="nav-link" href="indexFR.php#Informatie">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="indexFR.html#Team">Notre &eacute;quipe</a>
+                    <a class="nav-link" href="indexFR.php#Team">Notre &eacute;quipe</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="LogboekFR.html">Journal</a>
@@ -55,9 +55,9 @@
                         Langues
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="index.html"><img src= "assets/img/belgium.png">NL</a>
-                      <a class="dropdown-item" href="indexFR.html"><img src= "assets/img/france.png">FR</a>
-                      <a class="dropdown-item" href="indexEN.html"><img src= "assets/img/united-kingdom.png">ENG</a>
+                      <a class="dropdown-item" href="index.php"><img src= "assets/img/belgium.png">NL</a>
+                      <a class="dropdown-item" href="indexFR.php"><img src= "assets/img/france.png">FR</a>
+                      <a class="dropdown-item" href="indexEN.php"><img src= "assets/img/united-kingdom.png">ENG</a>
                   </div>
                 </li>
             </ul>
@@ -87,13 +87,13 @@
           <br>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+        <form method="POST" action="register.php">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Entrez votre email...">
+                <input name="email" type="email" class="form-control form-control-lg" placeholder="entrez votre email...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">S'inscrire</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">S'inscrire</button>
               </div>
             </div>
           </form>
@@ -276,7 +276,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="indexFR.html#Home">Home</a>
+              <a href="indexFR.php#Home">Home</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">

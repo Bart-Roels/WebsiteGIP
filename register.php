@@ -3,6 +3,8 @@ include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
 include_once 'includes/process_register.php';
 $mysqli = get_connection();
+$email = isset($_POST['email']) ? $_POST['email'] : "";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
