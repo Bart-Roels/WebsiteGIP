@@ -48,7 +48,8 @@
 			// $mysqli = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES ('$username','$email','$password')";
 			// $mysqli  = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES (1,2,3)";
 			$query  = "INSERT INTO `TBLgebruikers`(`Username`, `Email`, `Wachtwoord`) VALUES ('$username','$email','$password')";
-            mysqli_query($mysqli, $query);	        
+            mysqli_query($mysqli, $query);
+
         }
     }
 ?>

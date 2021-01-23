@@ -1,6 +1,6 @@
 <?php
     function get_connection() {
-        $mysqli=mysqli_connect('automotivechecker.be.mysql', 'automotivechecker_bebiib', '20033002', 'automotivechecker_bebiib');
+        $mysqli=mysqli_connect('localhost:3306', 'BIIBW_automotive', 'tt4c~U65es#kU929', 'BIIBWeb_automotive');
         if ($mysqli->connect_error) 
         {
         exit();

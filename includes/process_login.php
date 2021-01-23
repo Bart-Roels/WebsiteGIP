@@ -39,10 +39,6 @@
                 header("Location: ../index.php");
                 exit();
             }
-            else
-            {
-                array_push($errors, "Account moet nog geactiveerd worden!");   
-            }
         }
         else
         {
